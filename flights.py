@@ -3,7 +3,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # OpenSky Network credentials
-OPENSKY_EMAIL = "bryan.lancaster.ai@gmail.com"
+OPENSKY_EMAIL = "byronlancasterai@outlook.com"
 OPENSKY_PASS = "DroneSim2026!Byron"
 AUTH = HTTPBasicAuth(OPENSKY_EMAIL, OPENSKY_PASS)
 
