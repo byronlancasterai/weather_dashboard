@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 import time
 
 import weather
@@ -60,6 +61,8 @@ def main():
 
 if __name__ == "__main__":
     while True:
-        os.system('clear')
-        main()
+        try:
+            main()
+        except Exception as e:
+            print(f"Dashboard error: {e}")
         time.sleep(15)
